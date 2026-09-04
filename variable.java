@@ -9,6 +9,5 @@ public class variable {
             System.out.println("String: " + b);
         }
     }
-
-    
+     
 }

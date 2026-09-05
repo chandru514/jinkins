@@ -8,8 +8,12 @@ public class conversionandcasting {
         System.out.println("Person 3: " + person3);
         double num1= 10.5;
         int num2 =(int)num1;
-        System.out.println("Num 1:" + num2);
-
+        float f= 10.55f;
+        int t = (int)f;
+        System.out.println("Num 1:" + num1);
+        System.out.println("Num 2:" + num2);
+        System.out.println("Num 3:" + f);
+        System.out.println("Num 4:" + t);
     }
     
 }

@@ -7,6 +7,15 @@ public class looping1 {
                 System.out.println("Enter the n value:"+n);
                 n--;
             }
+             do{
+                System.out.println(n);
+                n++;
+             }while(n<10);
+        
+             for(int i=n;i>=0;i--){
+                System.out.println("Enter the n value1:"+n);
+                n--;
+             }
         }
     }
     

@@ -15,8 +15,8 @@ public class condition {
             System.out.println("Invalid");
         }
 
-        int day =1;
-        switch(day){
+        int n   = 3;
+        switch(n){
             case 1:
                 System.out.println("sunday");
                 break;

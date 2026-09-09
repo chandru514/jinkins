@@ -16,7 +16,7 @@ public class laptop {
         lap2.proc="i7";
         lap2.ram=8;
         lap2.price=90000;
-        System.out.println(lap2.name+" laptop price is"+lap2.price);
+        System.out.println(lap2.name+" laptop price is "+lap2.price);
     }
 
     

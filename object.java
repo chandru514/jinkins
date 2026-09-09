@@ -1,17 +1,15 @@
-class calculator{
-    int a;
-    public int add(){
-        System.out.println("in add");
-        return 0;
-    }
-}
 public class object {
-
+         int num1=0;
+        int num2=0;
+        int result=0;
     public static void main(String a[]){
-        int num1=10;
-        int num2=14;
-        int add=sc.nextInt();
-        add();
+        
+        object ob1=new object();
+        ob1.num1=10;
+        ob1.num2=10;
+        ob1.result=ob1.num1  +ob1.num2;
+        System.out.println(ob1.result);
+
 
 
     }
